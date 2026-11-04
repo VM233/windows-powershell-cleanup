@@ -1,4 +1,4 @@
 interface:
   display_name: "Windows PowerShell 清理"
-  short_description: "分离只读核验与固定路径删除，正确处理 Windows 清理命令的执行拦截"
-  default_prompt: "使用 $windows-powershell-cleanup 检查并清理已经授权的 Windows 临时文件或空目录，保留其他内容并核验结果。"
+  short_description: "按规模选择逐项或批量清理，核验目录边界并正确处理执行拦截"
+  default_prompt: "使用 $windows-powershell-cleanup 检查并清理已授权的 Windows 临时产物；大量文件优先批量处理，保留任务外内容并验证结果。"
